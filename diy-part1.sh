@@ -27,4 +27,4 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 git clone https://github.com/pymumu/smartdns.git package/smartdns
 git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
-git clone https://github.com/destan19/OpenClash package/luci-app-openclash
+git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
