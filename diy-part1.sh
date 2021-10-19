@@ -24,8 +24,9 @@ git clone https://github.com/garypang13/luci-app-eqos.git package/luci-app-eqos
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone https://github.com/riverscn/openwrt-iptvhelper.git package/openwrt-iptvhelper
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-git clone https://github.com/pymumu/smartdns.git package/smartdns
-git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+git clone https://github.com/pymumu/smartdns.git feeds/packages/net/smartdns
+git clone https://github.com/pymumu/luci-app-smartdns.git package/feeds/luci/applications/luci-app-smartdns
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
 git clone https://github.com/AdguardTeam/AdGuardHome package/AdGuardHome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
