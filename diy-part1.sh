@@ -28,3 +28,4 @@ git clone https://github.com/pymumu/smartdns.git package/smartdns
 git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
+git clone https://github.com/AdguardTeam/AdGuardHome package/AdGuardHome
