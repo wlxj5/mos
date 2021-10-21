@@ -14,16 +14,9 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
+sed -i '$a  src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git lienol https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 sed -i '$a src-git destan19 https://github.com/destan19/OpenAppFilter' feeds.conf.default
 sed -i '$a src-git vernesong https://github.com/vernesong/OpenClash.git' feeds.conf.default
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
-git clone https://github.com/garypang13/luci-app-eqos.git package/luci-app-eqos
-git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone https://github.com/riverscn/openwrt-iptvhelper.git package/openwrt-iptvhelper
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
-git clone https://github.com/AdguardTeam/AdGuardHome.git package/AdGuardHome
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
