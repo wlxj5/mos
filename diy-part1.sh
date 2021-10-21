@@ -15,8 +15,5 @@
 
 # Add a feed source
 sed -i '$a  src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '$a src-git lienol https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
-sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 sed -i '$a src-git destan19 https://github.com/destan19/OpenAppFilter' feeds.conf.default
-sed -i '$a src-git vernesong https://github.com/vernesong/OpenClash.git' feeds.conf.default
 git clone https://github.com/riverscn/openwrt-iptvhelper.git package/openwrt-iptvhelper
